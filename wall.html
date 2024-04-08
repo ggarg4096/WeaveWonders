@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Hangings</title>
+    <link rel="icon" type="image/jpeg" href="logo/logo2.jpeg" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="wall.css">
+</head>
+
+
+<body>
+    <nav class="header">
+        <a href="index1.html"><img src="logo/logo2.jpeg" class="logo"></a>
+        <h1 class="name">WEAVE WONDERS</h1>
+        <div class="search-box">
+            <button class="btn-search"><i class="fas fa-search"></i></button>
+            <input type="text" class="input-search" id="myInput" onkeyup="myFunction()"
+                placeholder="Search for names..">
+        </div>
+        <ul class="head">
+            <li type="none">
+                <div class="dropdown" id="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products &#128522;
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="wall.html">Wall hanging</a>
+                        <a class="dropdown-item" href="amb.html">Embroidery Hoops</a>
+                        <a class="dropdown-item" href="flower.html">Flowers</a>
+                        <a class="dropdown-item" href="doll.html">Dolls</a>
+                        <a class="dropdown-item" href="hood.html">Clothes</a>
+                        <a class="dropdown-item" href="decor.html">Home Decor</a>
+                        <a class="dropdown-item" href="key.html">Key Chains</a>
+                        <a class="dropdown-item" href="brec.html">Bracelletes</a>
+                        <a class="dropdown-item" href="bag.html">Bags</a>
+                        <a class="dropdown-item" href="all.html">All In One</a>
+                    </div>
+                </div>
+            </li>
+            <li type="none">
+                <i class="fa fa-home"></i><a href="index1.html" class="head1">HOME</a>
+            </li>
+            <li type="none">
+                <i class="fa fa-shopping-bag"></i><a href="addtocart.html" class="head1">ADD TO CART</a>
+            </li>
+            <li type="none">
+                <i class="fa fa-user"></i><a href="login.html" class="head1">LOG-IN</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="product1" class="section-p2">
+        <div class="pro-container">
+            <div class="pro" id="shops">
+                <img src="img/wall1.jpg" alt="Wall Art" class="img6">
+                <div class="des">
+                    <span>
+                        Made Of Wood
+                    </span>
+                    <h5>Modren Wall Art</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐
+                    </div>
+                    <h4>₹799.00</h4>
+                    <button id="w1" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall2.jpg" alt="Wall Art" class="img6">
+                <div class="des">
+                    <span>
+                        Made Of Love
+                    </span>
+                    <h5>Wall Mirror</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h4>₹999.00</h4>
+                    <button id="w2" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall3.jpg" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        100% Handmade
+                    </span>
+                    <h5>Evil Eye</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h4>₹650.00</h4>
+                    <button id="w3" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall5.jpg" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        100% Handmade
+                    </span>
+                    <h5>Modren Art </h5>
+                    <div class="star">
+                        ⭐⭐⭐
+                    </div>
+                    <h4>₹799.00</h4>
+                    <button id="w4" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall4.jpg" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        100% Handcrafted
+                    </span>
+                    <h5>Evil Eye For Door</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h4>₹3000.00</h4>
+                    <button id="w5" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wallhanging.png" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        100% Wool
+                    </span>
+                    <h5>Heart</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h4>₹499.00</h4>
+                    <button id="w6" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall6.jpg" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        Lipan Art
+                    </span>
+                    <h5>Shubh Labh</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐
+                    </div>
+                    <h4>₹459.00</h4>
+                    <button id="w7" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/wall8.jpg" alt="Wall Hanging" class="img6">
+                <div class="des">
+                    <span>
+                        100% Handcrafted
+                    </span>
+                    <h5>Wall Decore</h5>
+                    <div class="star">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h4>₹999.00</h4>
+                    <button id="w8" class="addbtn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center; color: gray;">
+        <h3>Contact us on instagram for any customised orders.</h3>
+    </div>
+    <footer>
+        <div class="fimage">
+            <img src="img/collage1.jpg" class="fimages">
+        </div>
+        <div class="ftext">
+            <h3 class="footerh">Contact Us:-</h3>
+            <h5 class="contacth6"><a href="https://www.instagram.com/weave.wonderss?igsh=MWg4dDQ4bGk1NjlvZg=="
+                    class="ancher">INSTAGRAM <i class="fab fa-instagram contacti"></i></a></h5>
+            <h5 class="contacth6"><a href="https://wa.me/qr/K73WH2B5WEJ5G1" class="ancher">WHATSAPP <i
+                        class="fab fa-whatsapp contacti"></i></a></h5>
+            <h5 class="contacth6"><a href="https://www.facebook.com/login/" class="ancher">FACEBOOK <i
+                        class="fab fa-facebook contacti"></i></a>
+            </h5>
+            <h5 class="contacth6"><a href="#" class="ancher">G-MAIL <i class="fa fa-envelope contacti"></i></a>
+            </h5>
+            <h5 class="contacth6">ggarg4096@gmail.com</h5>
+            <h5 class="contacth6">+91 99144-30680</h5>
+        </div>
+        <div class="fimage">
+            <img src="img/collage2.jpg" class="fimages">
+        </div>
+    </footer>
+
+    <script>
+        function addToCart(productId) {
+            var cartData = JSON.parse(localStorage.getItem('cart')) || {};
+            cartData[productId] = (cartData[productId] || 0) + 1;
+            localStorage.setItem('cart', JSON.stringify(cartData));
+            alert('Item added to cart!');
+        }
+        document.getElementById('w1').addEventListener('click', function () {
+            addToCart(3);
+        });
+        document.getElementById('w2').addEventListener('click', function () {
+            addToCart(4);
+        });
+        document.getElementById('w3').addEventListener('click', function () {
+            addToCart(5);
+        });
+        document.getElementById('w4').addEventListener('click', function () {
+            addToCart(6);
+        });
+        document.getElementById('w5').addEventListener('click', function () {
+            addToCart(7);
+        });
+        document.getElementById('w6').addEventListener('click', function () {
+            addToCart(8);
+        });
+        document.getElementById('w7').addEventListener('click', function () {
+            addToCart(9);
+        });
+        document.getElementById('w8').addEventListener('click', function () {
+            addToCart(10);
+        });
+    </script>
+</body>
+
+</html>
